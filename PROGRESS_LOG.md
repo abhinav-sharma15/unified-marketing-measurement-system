@@ -40,3 +40,45 @@ The key learning from Week 1 is that modern marketing measurement should not rel
 ### Next Week Focus
 
 Week 2: Design the core marketing data model.
+
+## Week 2
+
+### Phase
+
+Marketing Data Architecture
+
+### Learning Objective
+
+Design the core data model required to support attribution, incrementality testing, Geo Lift, MMM, LTV prediction, and AI-assisted decision-making.
+
+### Build Objective
+
+Create the first version of the marketing measurement data architecture.
+
+### Planned Deliverables
+
+- [ ] docs/01_data_architecture.md
+- [ ] Core dimension table list
+- [ ] Core fact table list
+- [ ] Measurement use case mapping
+- [ ] Week 2 reflection
+
+### Key Questions
+
+- Which tables are needed for each measurement method?
+- What is the grain of each table?
+- Which fields are required?
+- Which tables would be hardest to build in a real business?
+- What data quality issues could break the system?
+
+### Confidence Level
+
+Not started
+
+### Work Relevance
+
+High
+
+### Next Week Focus
+
+Generate mock marketing datasets.
