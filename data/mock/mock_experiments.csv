@@ -1,0 +1,2 @@
+experiment_id,experiment_name,test_type,channel_name,hypothesis,primary_metric,start_date,end_date,treatment_markets,control_markets,planned_mde_pct,confidence_threshold,status
+GEO_YT_001,YouTube Regional Incrementality Test,Geo Lift,YouTube,Increasing YouTube investment creates incremental revenue,Weekly revenue,2025-07-01,2025-07-28,Manchester|Leeds|Bristol,Birmingham|Liverpool|Sheffield,7.5,0.95,Completed
