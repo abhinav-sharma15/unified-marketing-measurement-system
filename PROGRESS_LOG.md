@@ -100,3 +100,25 @@ High
 ### Next Week Focus
 
 Generate mock marketing datasets.
+
+## Week 3 Reflection
+
+Synthetic data should contain deliberate business patterns so that the measurement methods can be tested against known relationships rather than meaningless random values.
+
+Marketing inputs include spend, impressions, clicks, reach, video views, campaigns, and treatment assignment. Business outcomes include sessions, leads, opportunities, revenue, margin, and LTV. External controls include seasonality, promotions, product launches, competitor events, market size, and baseline revenue.
+
+Demand that would have occurred without marketing is represented through baseline revenue, seasonality, market-size differences, promotions, product launches, and random business variation.
+
+Lead quality is represented using engagement, company size, MQL and SQL rates, opportunity progression, pipeline value, win probability, and LTV. LinkedIn is designed to produce fewer but higher-value leads, while Paid Social produces greater volume but weaker downstream value.
+
+Diminishing returns are represented through a nonlinear relationship between spend and contribution, so additional spend produces progressively smaller returns.
+
+The Geo Lift setup contains defined treatment and control markets, a clear intervention period, increased YouTube spend only in treatment markets, and historical pre-period data. Its credibility must still be assessed through pre-period comparability checks.
+
+The hardest real-world data challenges would be identity stitching, campaign standardization, geo-level media data, CRM and revenue linkage, external control data, experiment documentation, and acquisition-to-LTV linkage.
+
+The synthetic assumptions may bias future results because channel quality, conversion rates, saturation, seasonality, and treatment effects were deliberately created. Synthetic results therefore validate the analytical workflow, not actual channel performance.
+
+Delayed media effects should be represented through lagged or adstocked media variables. This should be strengthened in a future version of the data generator.
+
+Internal consistency should be validated through schema checks, uniqueness tests, referential-integrity tests, logical value checks, and confirmation that the intended business patterns are visible.
